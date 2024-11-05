@@ -1,0 +1,23 @@
+input { 
+    display:block;
+    margin-bottom: 16px;
+    padding: 12px 14px ;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    font: inherit;
+     }
+form {
+    margin: 0 auto; width: 400px;
+     }
+button {
+    margin-bottom: 16px;
+    padding: 12px 14px ;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    width: 225px; 
+    background-color:#46A358;
+    color:#FFFFFF;
+       }  
+span {
+     color: #46A358; 
+     }
