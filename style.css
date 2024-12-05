@@ -4,25 +4,30 @@
   box-sizing:border-box;
   outline:none;
   border: none;
-  font: inherit;
+  font-family: inherit;
   color:inherit;
+}
+body {
+font-family:"Poppins",sans-serif;
 }
 .conteiner {
     width:1200px;
     margin: 0 auto;
-    background:#f2f2f2;
+    margin-top: 25px;
+    background:#ffff;
 }
 nav ul,nav ,button,nav li{
   display:inline-block
 }
-
 span {
     color:#46A358;
 }
-  nav li{
+ nav li ul{
 margin: 0 25px;
-padding-bottom: 25px;
-border-bottom: 2px solid green;
+padding-bottom: 25px; 
+display: inline-block;
+width: 100%;
+text-align: center;
 }
 nav ul {
 list-style:none;
@@ -34,19 +39,22 @@ section .conteiner{
 }
 section .left-side{
   display: inline-block;
-  max-width: 50%;
+  max-width: 58%;
   padding:68px 43px ;
   vertical-align: top;
 }
 section .right-side {
   display: inline-block;
-  max-width: 50%;
+  max-width: 38%;
 }
-h2{
+h1{
+  margin-bottom: 5px;
 font-weight: 900;
+font-size: 70px;
+line-height:70px;
 }
 .top-right{
-margin-left:550px;
+float: right;
 padding-left: 17px;
 padding-right:17px ;
 padding-top: 8px;
@@ -54,9 +62,11 @@ padding-bottom:7px ;
 border-radius: 6px;
 background-color: #46A358;
 color: #f2f2f2;
+font-weight: 500;
+font-size: 16px;
 }
 .bottom-left{
-  margin-top: 200px;
+  margin-top:44px;
   padding-left: 26px;
   padding-right:27px;
   padding-top:11px ;
@@ -64,5 +74,44 @@ color: #f2f2f2;
   background-color: #46A358;
   border-radius: 6px;
   color: #f2f2f2;
-}
+  font-weight: 700;
+  font-size:16px;
 
+}
+nav a{
+  display: inline-block;
+}
+p:first-child{
+  margin-bottom:7px;
+  font-weight:500;
+  font-size:14px;
+  line-height:16px;
+}
+li{
+  margin: 0 25px;
+  vertical-align: text-bottom;
+  font-weight:400;
+  font-size: 16px;
+  line-height:20px;
+}
+p:nth-child(2){
+  font-weight:400;
+  font-size: 14px;
+  line-height: 24px;
+}
+nav{
+  vertical-align: middle;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.logo{
+  float: left;
+}
+.home{
+  font-weight: 700;
+  color: black;
+  padding-bottom: 25px; 
+ border-bottom: 4px solid #46A358;
+
+}
