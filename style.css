@@ -165,6 +165,7 @@
     background-color: #FFFFFF;
   }
   .card{
+    position: relative;
     width: 258px;
     height: 300px;
     margin-right: 33px;
@@ -172,6 +173,7 @@
     background-color: #FFFFFF;
   }
   .card1{
+    position: relative;
     width: 258px;
     height: 300px;
     margin-bottom: 120px;
@@ -183,10 +185,43 @@
     padding-right:4px;
     padding-left: 4px;
   }
+  
   .fleximg1{
     padding-bottom: 16px;
-   padding-left:4px;
-   padding-right:4px;
+    padding-left:4px;
+    padding-right:4px;
+  }
+  .card:hover{
+    border-top: 2px solid #46A358;
+    .buttons{
+      opacity:1;
+    }
+  }
+  .buttons{
+    position: absolute;
+    width: 100%;
+    bottom: 7px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    opacity: 0;
+  }
+  .buttons1{
+    padding: 7px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+  }
+  .sale{
+    position: absolute;
+    display: flex;
+    top: 14px;
+    left: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 29px;
+    background-color: #46A358;
+    color: #FFFFFF;
   }
   h3{
     font-weight: 500;
